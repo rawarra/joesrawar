@@ -1,17 +1,6 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky
-@URL: http://themeforest/user/wethemez
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Dental
-@Author: Rocky
-@Developed By: Rocky
-@Developer URL: http://rocky.obaidul.com
+
 
 @Default Styles
 
@@ -213,16 +202,16 @@ section.row, header.row, footer.row {
     border: 1px solid #fff;
 }
 .main_slider_area .main_slider_inner .camera_pag .camera_pag_ul li.cameracurrent {
-    border: 1px solid #93c524;
+    border: 1px solid #c6171e;
 }
 .main_slider_area .main_slider_inner .camera_pag .camera_pag_ul li.cameracurrent span {
-    background: #93c524;
+    background: #c6171e;
 }
 .main_slider_area .main_slider_inner .camera_pag .camera_pag_ul li:hover {
-    border: 1px solid #93c524;
+    border: 1px solid #c6171e;
 }
 .main_slider_area .main_slider_inner .camera_pag .camera_pag_ul li:hover span {
-    background: #93c524;
+    background: #c6171e;
 }
 
 /*===== slider2-area area color css=====*/
@@ -639,7 +628,7 @@ section.row, header.row, footer.row {
     border-color: #cacaca;
 }
 .services-group .services-img .img .overlay {
-    background: #0f77ad;
+    background: #e8a2a5;
 }
 .services-group .services-img:hover .r-icon:after {
     background: #0f77ad;
@@ -1816,8 +1805,8 @@ section.row, header.row, footer.row {
 
 /*==== services-info-area css ====*/
 .services-info-area {
-    padding-top: 130px;
-    padding-bottom: 134px;
+    padding-top: 100px;
+    padding-bottom: 15px;
     overflow: hidden;
 }
 
@@ -1876,11 +1865,11 @@ section.row, header.row, footer.row {
     padding-top: 100px;
 }
 .services-group + .services-group.services1 {
-    text-align: right;
+    text-align: left;
 }
 
 .services-content {
-    padding-top: 46px;
+    padding-top: 0px;
 }
 .services-content h2 {
     font: 600 36px/47px "Raleway", sans-serif;
@@ -3585,7 +3574,7 @@ section.row, header.row, footer.row {
     font-size: 16px;
 }
 .team-area .team-slider #wrapper_bu .social-icon .icon li a:hover {
-    background: #93c524;
+    background: #c7181f;
     color: #fff;
 }
 
@@ -3757,4 +3746,11 @@ section.row, header.row, footer.row {
 .fleft{
     
     float: right;
+}
+
+.services-group{
+    border-top: 3px solid red;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    padding-top: 5%;
 }
